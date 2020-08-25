@@ -105,4 +105,4 @@ theme: next
 deploy:
   type: 'git'
   repo:
-    github: git@github.com:tzuyichao/tzuyichao.github.io.git
+    github: https://github.com/tzuyichao/tzuyichao.github.io.git
