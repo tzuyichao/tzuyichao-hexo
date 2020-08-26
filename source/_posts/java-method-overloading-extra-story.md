@@ -4,7 +4,7 @@ date: 2020-08-25 16:36:40
 tags:
 ---
 很久沒寫東西，其實我不知道面試問這個的意義。是要考倒求職者彰顯自己的能力?還是甚麼目的?
-真的面試到Java那麼熟的碼農，大多數台灣企業做的東西用的上這些知識又有幾間? 公司又能花多少錢養這種工程師? XD
+真的面試到Java那麼熟的碼農，大多數台灣企業做的東西用的上這些知識又有幾間? 公司又能花多少錢養這種工程師，但大多數時間只需要寫CRUD，稍微進階點的東西要做當官的就龜縮? XD
 
 ## Quick Start
 
@@ -42,7 +42,7 @@ PS D:\tmp> javac .\TestMethodOverload.java
 
 答案是【是合法的】，JVM是允許有這樣的情況，method overloading這樣的規定是Java語言的規範，所以是java compiler會抱怨你這樣寫，但是如果你能產生這種情況的bytecode class，JVM是不在乎的。
 
-證明下面這個例子，用BCEL產生一個簡單的Java Class，HelloJVM類別裡面有兩個test1()只有return type的差異，一個，一個回int一個回double。然後順便弄個main method讓我們可已執行一下這兩個test1()。
+證明下面這個例子，用BCEL產生一個簡單的Java Class，HelloJVM類別裡面有兩個test1()只有return type的差異，一個回int一個回double。然後順便弄個main method讓我們可已執行一下這兩個test1()。
 
 ``` java
         final String ClassName = "HelloJVM";
