@@ -9,6 +9,8 @@ lombok除了JSR 269之外的黑科技。簡單來說lombok是透過Java 6推出�
 
 <code>JCTree</code>就是讓我們可以處理Java AST的API。兩件事要先講，首先根據<code>JCTree</code>的JavaDoc寫類別名稱看到JC是javac的縮寫。接著，這些API是internal使用，有可能改變或刪除，如果要用後果自行負責。
 
+> This is NOT part of any supported API. If you write code that depends on this, you do so at your own risk. This code and its internal interfaces are subject to change or deletion without notice.
+
 ## How to create instance via invoke default constructor
 
 ### Question
