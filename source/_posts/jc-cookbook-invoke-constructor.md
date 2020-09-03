@@ -11,8 +11,6 @@ lombok除了JSR 269之外的黑科技。簡單來說lombok是透過Java 6推出�
 
 > This is NOT part of any supported API. If you write code that depends on this, you do so at your own risk. This code and its internal interfaces are subject to change or deletion without notice.
 
-## How to create instance via invoke default constructor
-
 ### Question
 
 如何透過JCTree API增加一個呼叫default constructor產生物件?
