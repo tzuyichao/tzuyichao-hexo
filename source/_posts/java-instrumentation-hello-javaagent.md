@@ -295,6 +295,7 @@ Can-Retransform-Classes: true
     }
 ```
 
+<code>loadAgent()</code>的路徑是target virtual machine的檔案系統裡的agent jar file路徑。見[JavaDoc](https://docs.oracle.com/en/java/javase/14/docs/api/jdk.attach/com/sun/tools/attach/VirtualMachine.html#loadAgent(java.lang.String,java.lang.String))
 
 
 #### Cleint
